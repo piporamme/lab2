@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/template.css" rel="stylesheet" media="screen">
+    <title>Poramme Gallery</title>
+    <style>
+        body{
+            height: auto;
+            width: auto;
+        }
+        button.su{
+    background: none;
+    background-color: rgb(10, 216, 10);
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    height: 50px;
+    overflow: hidden;
+    padding: 10px 80px;  
+    transition: 0.5s;
+    }
+    button.su:hover{
+        background-color: rgb(5, 238, 149)
+    }
+        ul{list-style: none;
+            background-color: salmon;
+            text-align: center; 
+            padding :0 ;
+            margin: 0;}
+        li{ font-size: 15px; 
+            line-height:40px; 
+            text-align: center;} 
+        a{ text-decoration: none;
+            color: snow; 
+            display: block; 
+            padding-left: 15px;
+            border-bottom: 1px solid black; 
+            transition: 0.5s;
+border-bottom: none;}
+        a:hover{background-color: brown;}
+        .dd{
+            position: sticky;
+            top : 0 ;
+            background-color: rgb(247, 247, 247);
+            border: 1px solid slategrey;
+            font-size: 25px;
+            padding: 10px;
+            margin-top: 60px;
+            margin: 50px;
+            width: 90%;
+            border-radius: 20px;
+            box-sizing: border-box;
+        }
+        
+        .dt{
+            background-color: rgb(247, 247, 247);
+            border: 1px solid rgb(230, 230, 230);
+            height: 100px;
+            margin-bottom: 10px;
+            right: 10px;
+        }
+        .box{
+            left: 10px;
+            width: 100%;
+            max-height: 500px;
+            margin-bottom: 200px;
+        }
+        
+        @media screen {
+         li{
+             width: 100px;
+             height: 50px;
+             line-height: 50px;
+             font-size: 15px;
+             margin-right: -5px;
+             display: inline-block;
+             border-bottom: none;
+         }   
+         a{border-bottom: none;}
+         nav > ul >li>a{
+            padding-left:0;
+         }
+         li ul{
+             position: absolute;
+             display: none;
+             width: inherit;
+         }
+        }
+    </style>
+</head>
+<body>
+    <nav >
+        <ul>
+            <li class="1"><a href="index.html">Home</a> </li>
+            <li class="2"><a href="Mygallery.html">My gallery</a></li>
+            <li class="3"><a href="#">เติมเงิน</a></li>
+            <li class="4"><a href="#">ติดต่อเรา</a></li>
+            <li><a href="#">เข้าสู่ระบบ</a></li>
+        </ul>
+    <div class="container">
+    <div class="jumbotron">
+        <h1 ><img src="imglab2/01.jpg" style="width: 100px; border-radius: 100px;"> 
+            My gallery</h1>
+        <p>The ordinary photo gallery</p>
+    </div>
+
+<div class="dd" style="z-index: 1;">Landscape</div>
+<div class="row">
+    <div class="col-xl-3 col-lg-3 col-md-6 box ">
+        <img class="img-thumbnail " src="imglab2/02.jpg" alt=""> 
+        <h2>L1</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue; text-align: center; ">read more</a> 
+        <p style="text-align: center;"><button  class="su">BUY</button></p>
+        </p> 
+    </div>
+    <div class="col-xl-3 col-lg-3 col-md-6 box" >
+    <img class="img-thumbnail"src="imglab2/04.jpg" alt="">
+    <h2>L2</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a>
+        <p style="text-align: center;"><button  class="su">BUY</button></p>
+        </p> 
+    </div>
+    
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/08.jpg" alt="">
+        <h2>L3</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a>
+            <p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+</div> 
+<div class="col-xl-3 col-lg-3 col-md-6 box">
+    <img class="img-thumbnail"src="imglab2/13.jpg" alt="">
+    <h2>L4</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+</div>    
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/06.jpg" alt="">
+        <h2>L5</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+        </div> 
+        <div class="col-xl-3 col-lg-3 col-md-6 box">
+            <img class="img-thumbnail"src="imglab2/03.jpg" alt="">
+            <h2>L6</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+        </div>     
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/07.jpg" alt="">
+        <h2>L7</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+        </div> 
+   
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+            <img class="img-thumbnail"src="imglab2/09.jpg" alt="">
+            <h2>L8</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div> 
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/10.jpg" alt="">
+        <h2>L9</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div> 
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/11.jpg" alt="">
+        <h2>L10</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div> 
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/12.jpg" alt="">
+        <h2>L11</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div> 
+    
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/05.jpg" alt="">
+        <h2>L12</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div> 
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/14.jpg" alt="">
+        <h2>L13</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div> 
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/15.jpg" alt="">
+        <h2>L14</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div> 
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/16.jpg" alt="">
+        <h2>L15</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div> 
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/21.jpg" alt="">
+        <h2>L16</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div> 
+   
+<div class="dd" style="z-index: 2;">flowerPlant</div>
+<div class="row">
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/22.jpg" alt="">
+        <h2>P1</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div>     
+      
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/24.jpg" alt="">
+        <h2>P2</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div>
+     
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/26.jpg" alt="">
+        <h2>P3</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div>  
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/27.jpg" alt="">
+        <h2>P4</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div> 
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/28.jpg" alt="">
+        <h2>P5</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div>  
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/29.jpg" alt="">
+        <h2>P6</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div>   
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/30.jpg" alt="">
+        <h2>P7</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div>    
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/31.jpg" alt="">
+        <h2>P8</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div>   
+    
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/33.jpg" alt="">
+        <h2>P9</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div>  
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/34.jpg" alt="">
+        <h2>P10</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div>   
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/35.jpg" alt="">
+        <h2>P11</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div>
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/36.jpg" alt="">
+        <h2>P12</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div>  
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/37.jpg" alt="">
+        <h2>P13</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div> 
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/38.jpg" alt="">
+        <h2>P14</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div>     
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/39.jpg" alt="">
+        <h2>P15</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div>      
+    <div class="col-xl-3 col-lg-3 col-md-6 box">
+        <img class="img-thumbnail"src="imglab2/40.jpg" alt="">
+        <h2>P16</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+    </div>              
+</div>
+<div class="dd" style="z-index: 3;">SkyCloud</div>
+<div class="col-xl-3 col-lg-3 col-md-6 box">
+    <img class="img-thumbnail"src="imglab2/48.jpg" alt="">
+    <h2>S1</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+</div> 
+
+<div class="col-xl-3 col-lg-3 col-md-6 box">
+    <img class="img-thumbnail"src="imglab2/42.jpg" alt="">
+    <h2>S2</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+</div> 
+<div class="col-xl-3 col-lg-3 col-md-6 box">
+    <img class="img-thumbnail"src="imglab2/43.jpg" alt="">
+    <h2>S3</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+</div> 
+<div class="col-xl-3 col-lg-3 col-md-6 box">
+    <img class="img-thumbnail"src="imglab2/44.jpg" alt="">
+    <h2>S4</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+</div> 
+<div class="col-xl-3 col-lg-3 col-md-6 box">
+    <img class="img-thumbnail"src="imglab2/45.jpg" alt="">
+    <h2>S5</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+</div> 
+<div class="col-xl-3 col-lg-3 col-md-6 box">
+    <img class="img-thumbnail"src="imglab2/46.jpg" alt="">
+    <h2>S6</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+</div> 
+<div class="col-xl-3 col-lg-3 col-md-6 box">
+    <img class="img-thumbnail"src="imglab2/47.jpg" alt="">
+    <h2>S7</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p> 
+</div> 
+<div class="col-xl-3 col-lg-3 col-md-6 box">
+    <img class="img-thumbnail"src="imglab2/41.jpg" alt="">
+    <h2>S8</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti, nesciunt debitis tempora voluptates atque incidunt illo earum quaerat odio.<a href="#" style="color:blue;text-align: center;">read more</a><p style="text-align: center;"><button  class="su">BUY</button></p></p>        
+</div> 
+<div style="margin-top: 40px; margin-bottom: 100px;">
+ <b>Thank you for visiting. </b>   
+
+</div>
+</div>
+</body>
+</html>

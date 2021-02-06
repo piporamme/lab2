@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Poramme Gallery</title>
+    <style>
+        ul{list-style: none;
+            background-color: salmon;
+            text-align: center; 
+            padding :0 ;
+            margin: 0;}
+        li{ font-size: 15px; 
+            line-height:40px; 
+            text-align: center;} 
+        a{ text-decoration: none;
+            color: snow; 
+            display: block; 
+            padding-left: 15px;
+            border-bottom: 1px solid black; 
+            transition: 0.5s;
+            border-bottom: none;}
+        a:hover{background-color: brown;}
+        .hh{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -10;
+            left: 0;
+            right: 0;
+            top: 90px ;
+            bottom: 0 ;
+            text-align: center;
+        }
+        .img{
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 750px ;
+        }
+        h1{
+        position: relative;
+        z-index: 1;
+        font-size: 170px;
+        color: rgb(12, 12, 99);
+        margin-bottom: 0;
+        font-weight: 500;
+        text-shadow: 18px 0 0 rgb(255 45 109 / 20%);
+        display: inline-block;
+        }
+        @media screen {
+         li{
+             width: 100px;
+             height: 50px;
+             line-height: 50px;
+             font-size: 15px;
+             margin-right: -5px;
+             display: inline-block;
+             border-bottom: none;
+         }   
+         a{border-bottom: none;}
+         nav > ul >li>a{
+            padding-left:0;
+         }
+         li ul{
+             position: absolute;
+             display: none;
+             width: inherit;
+         }
+        }
+    </style>
+</head>
+<body>
+<header>
+<nav class="dd" >
+    <ul>
+        <li ><a href="index.html">Home</a> </li>
+        <li ><a href="Mygallery.html">My gallery</a></li>
+        <li ><a href="#">เติมเงิน</a></li>
+        <li ><a href="#">ติดต่อเรา</a></li>
+        <li><a href="#">เข้าสู่ระบบ</a></li>
+    </ul>
+<div class="hh">
+    <img src="imglab2/01.jpg" class="img">
+    <h1 >Welcome to my web</h1>
+</div>
+
+</header>
+
+   
+</body>
+</html>
