@@ -1,0 +1,32 @@
+
+.box{
+    width: 250px;
+    height: 250px;
+    border: 20px solid black;
+    padding: 0;
+    margin: 0;
+}
+.conten{
+    width: 230px;
+    height: 230px;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+td{
+    width: 99px;
+    height: 99px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    background: pink ;
+    
+}
+.w{
+    background-color: cornsilk;
+}
+.b{
+    background-color: black;
+}
+
