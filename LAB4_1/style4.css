@@ -1,0 +1,22 @@
+
+.box{
+    width: 250px;
+    height: 250px;
+    border: 20px solid black;
+    padding: 0;
+    margin-left: 40%;
+}
+td{
+    width: 110px;
+    height: 110px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+.w{
+    background-color: cornsilk;
+}
+.b{
+    background-color: black;
+}
+
